@@ -1,3 +1,51 @@
-*{
-    
+/* *{
+
+} */
+
+
+.flex-container{
+    display: flex;
 }
+
+.main{
+    flex-direction: column;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.header{
+    flex-direction: column;
+}
+
+.header > div{
+    /* flex-direction: column; */
+    /* text-align: center; */
+}
+
+.navigation{
+    align-items: center;
+}
+
+.navigation > div:nth-child(2){
+    margin-left: 20px;
+}
+
+#signUp >div{
+    flex: 1 1 auto;
+    width: 50%;
+}
+
+ #signUp > div:nth-child(1){
+    flex-direction: column;
+
+    
+} 
+#imgPh{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+/* body > div > div > div:nth-child(2) > div:nth-child(2){
+    align-self: center;
+} */
