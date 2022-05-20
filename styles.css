@@ -24,6 +24,11 @@
 
 .navigation{
     align-items: center;
+    justify-content: flex-end;
+}
+
+.navigation > div:nth-child(1){
+    margin-right: auto;
 }
 
 .navigation > div:nth-child(2){
